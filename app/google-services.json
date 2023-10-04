@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "292676843618",
+    "firebase_url": "https://basedatadz-default-rtdb.firebaseio.com",
+    "project_id": "basedatadz",
+    "storage_bucket": "basedatadz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292676843618:android:c11f43cfb18b02056b393b",
+        "android_client_info": {
+          "package_name": "com.example.firebasetestproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOfTrCLJxNqy7tXxD8efRB9v4obNUUkCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
