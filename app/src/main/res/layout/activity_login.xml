@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity" >
+
+    <EditText
+        android:id="@+id/edLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="24dp"
+        android:background="#7CE8E2E2"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:hint="@string/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="#7CE8E2E2"
+        android:ems="10"
+        android:hint="@string/password"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/edLogin"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edLogin"
+        app:layout_constraintTop_toBottomOf="@+id/edLogin" />
+
+    <Button
+        android:id="@+id/btReg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="32dp"
+        android:textColor="@color/black"
+        android:background="#9C27B0"
+        android:text="@string/registration"
+        android:onClick="onClickSignUp"
+        app:layout_constraintEnd_toEndOf="@+id/edPassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edPassword"
+        app:layout_constraintTop_toBottomOf="@+id/edPassword" />
+
+    <Button
+        android:id="@+id/btEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="#9C27B0"
+        android:textColor="@color/black"
+        android:text="@string/enter"
+        android:onClick="onClickSignIn"
+        app:layout_constraintEnd_toEndOf="@+id/btReg"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/btReg"
+        app:layout_constraintTop_toBottomOf="@+id/btReg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

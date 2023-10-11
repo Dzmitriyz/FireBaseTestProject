@@ -1,10 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FireBaseTestProject</string>
     <string name="save">Save</string>
     <string name="read">Read</string>
     <string name="e_mail">E-mail</string>
-    <string name="sec_name">Фамилия</string>
-    <string name="name">Имя</string>
     <string name="registration">Регистрация</string>
     <string name="enter">Войти</string>
     <string name="login">login</string>

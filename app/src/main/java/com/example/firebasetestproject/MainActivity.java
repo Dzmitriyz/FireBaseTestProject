@@ -2,6 +2,7 @@ package com.example.firebasetestproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         Users newUser = new Users(id, name, sec_name, email);
         if (!TextUtils.isEmpty(name) && !TextUtils.isEmpty(sec_name) && !TextUtils.isEmpty(email)) {
             mDataBase.push().setValue(newUser);
+            Toast.makeText(this, "Пользователь добавлен", Toast.LENGTH_SHORT).show();
 
         } else {
             Toast.makeText(this, "Заполни пустое поле", Toast.LENGTH_SHORT).show();
@@ -45,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onClickRead(View view){
-
+        Intent intent = new Intent(this,ReadActivity.class);
+        startActivity(intent);
     }
 }

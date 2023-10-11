@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="save">Сохранить</string>
+    <string name="read">Просмотреть</string>
+    <string name="e_mail">Электронная почта</string>
+    <string name="registration">Регистрация</string>
+    <string name="enter">Войти</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+</resources>
