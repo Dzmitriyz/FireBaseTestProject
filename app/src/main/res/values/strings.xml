@@ -9,4 +9,6 @@
     <string name="enter">Войти</string>
     <string name="login">login</string>
     <string name="password">password</string>
+    <string name="ent">Enter</string>
+    <string name="exit">Выход</string>
 </resources>
