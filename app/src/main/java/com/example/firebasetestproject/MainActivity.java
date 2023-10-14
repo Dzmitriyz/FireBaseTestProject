@@ -87,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
             if(resutlCode == RESULT_OK){
                 Log.d("MyLog", "omage URI"+data.getData());
                 imageView.setImageURI(data.getData());
-
             }
         }
     }

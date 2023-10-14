@@ -16,7 +16,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageDB" />
+        app:layout_constraintTop_toBottomOf="@+id/imageDB"
+        />
 
     <TextView
         android:id="@+id/textView2"

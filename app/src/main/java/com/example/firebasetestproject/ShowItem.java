@@ -25,7 +25,6 @@ public class ShowItem extends AppCompatActivity {
         t2 = findViewById(R.id.textView2);
         t3 = findViewById(R.id.textView3);
         imageDB = findViewById(R.id.imageDB);
-
     }
 
     private void getInt(){

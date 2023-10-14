@@ -61,7 +61,6 @@ public class ReadActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-
             }
         };
         mDataBase.addValueEventListener(vListener);
