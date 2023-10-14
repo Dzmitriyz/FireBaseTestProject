@@ -8,4 +8,5 @@
     <string name="login">login</string>
     <string name="password">password</string>
     <string name="ent">Enter</string>
+    <string name="choose_image">Choose image</string>
 </resources>
